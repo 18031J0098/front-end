@@ -4,7 +4,7 @@ class Ram extends Component {
   render() {
     return (
       <div>
-        <h1>i am ram</h1>
+        <h1>i am rambabu</h1>
       </div>
     )
   }
