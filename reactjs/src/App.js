@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import Deepak from './deepak/Deepak'
 import Ram from './ram/Ram'
 import Sandeep from './sandeep/Sandeep'
+
 
 class App extends Component {
   render() {
@@ -8,6 +10,7 @@ class App extends Component {
       <div>
         <Sandeep/>
         <Ram/>
+        <Deepak/>
       </div>
     )
   }
