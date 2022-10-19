@@ -1,12 +1,13 @@
+import './index.css'
+
 import React, { Component } from 'react'
 
-class Sandeep extends Component {
+export default class Mahesh extends Component {
   render() {
     return (
       <div>
-        <h1>i am sandeep</h1>
+        <h1>Mahesh</h1>
       </div>
     )
   }
 }
-export default Sandeep

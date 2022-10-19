@@ -1,18 +1,26 @@
-import React, { Component } from 'react'
-import Deepak from './deepak/Deepak'
-import Ram from './ram/Ram'
-import Sandeep from './sandeep/Sandeep'
+import {Route, Routes} from 'react-router-dom'
+import Deepak from './components/Deepak'
+import Ram from './components/Ram'
+import Sandeep from './components/Sandeep'
+import Header from './components/Header'
+import Mahesh from './components/Mahesh'
+import Akhil from './components/Akhil'
+import Srinu from './components/Srinu'
 
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Sandeep/>
-        <Ram/>
-        <Deepak/>
-      </div>
-    )
-  }
-}
+const App =() => (
+  <>
+  <Header />
+   <Routes>
+  <Route exact path="/" element={<Deepak />} />
+  <Route exact path="/mahesh" element={<Mahesh />} />
+  <Route exact path="/akhil" element={<Akhil />} />
+  <Route exact path="/sandeep" element={<Sandeep />} />
+  <Route exact path="/ram" element={<Ram />} />
+  <Route exact path="/srinu" element={<Srinu />} />
+  
+ 
+  </Routes> 
+  </>
+)
 export default App
