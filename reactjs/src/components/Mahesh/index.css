@@ -1,0 +1,39 @@
+.bg-container{
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/musical-night-bg.png");
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 10px;
+}
+h1{
+    color: black;
+}
+
+.card-container{
+    width: 90%;
+    background-color: #ffffff;
+    margin:10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-left:8px;
+
+}
+.inner-card {
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+
+}
+.image{
+    height:150px;
+    width:300px;
+    border-radius: 12px;
+
+}
+
+.image1{
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
