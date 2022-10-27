@@ -1,0 +1,183 @@
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    height: 100vh;
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/musical-night-bg.png");
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.card-container {
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: auto;
+    max-width: 800px;
+}
+
+.main-heading {
+    color: #12022f;
+    font-family: "Roboto";
+    font-size: 32px;
+    padding-left: 30px;
+
+}
+
+.card-body {
+    height: 60vh;
+    border-top: 1px solid #d3d3d3;
+    padding: 32px;
+    overflow: scroll;
+}
+
+.image {
+    border-radius: 24px;
+    max-width: 400px;
+}
+
+.muscial-night {
+    color: #12022f;
+    font-family: "Roboto";
+}
+
+.description {
+    color: #594d6d;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.muscial-night-singer {
+    padding: 8px;
+    max-width: 200px;
+} */
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/nature-gallery-bg.png");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.main-heading {
+    color: #323f4b;
+    text-align: center;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+
+.card-container {
+    width: 70%;
+    background-color: #ffffff;
+    padding-top: 5px;
+    margin: auto;
+    max-width: 700px;
+    overflow-x: auto;
+}
+
+.images-container {
+    width: 800px;
+    padding: 20px;
+}
+
+.image {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+/* .box{
+    color: black;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+.box1{
+    background-color: blueviolet;
+}
+.box2{
+    background-color: rgb(49, 226, 43);
+}
+.box3{
+    background-color: rgb(72, 0, 255);
+}
+.boxes-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    border: 10px solid goldenrod;
+} */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/music-section-bg.png");
+    font-family: "Open Sans";
+    min-height: 100vh;
+    background-size: cover;
+}
+.heading{
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 15px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+.description{
+    font-weight: 500;
+    font-size: 18px;
+    color: #ececec;
+    margin-bottom: 25px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    font-family: "Open Sans";
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 28px;
+    margin: 10px;
+    background-color: #ffdda9;
+    color: #12022f;
+    border: 0px;
+}
+.outline-button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 28px;
+    margin: 10px;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #ececec;
+}
