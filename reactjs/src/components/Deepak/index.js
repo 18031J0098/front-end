@@ -53,7 +53,6 @@ export default class Deepak extends Component {
             <button className='outline-button'>Learn More</button>
         </div>
        </div>
-
       </div>
     )
   }
