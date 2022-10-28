@@ -1,0 +1,49 @@
+
+.container-ram
+{
+    text-align: center;
+    background-image:url(https://images.pexels.com/photos/2802688/pexels-photo-2802688.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    height: 100vh;
+    margin-top: 100px;
+    background-size: cover;
+    
+}
+.heading{
+color:wheat;
+font-family:"Times";
+text-align: center;
+max-width: 500px;
+width: 90%;
+padding-top: 30px;
+margin: 10px;
+float: center
+}
+.description{
+    color:antiquewhite;
+    font-family:"Times new Roman";
+    margin: 10px;
+    font-style: italic;
+}
+.button-container{
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.button1{
+color: black;
+background-color:burlywood;
+border: radius 20px;
+height: 60px;
+width: 150px;
+border-radius:  30px;
+margin: 5px;
+}
+.button2{
+color:white;
+background: none;
+height:60px;
+width: 150px;
+border-radius: 30px;
+margin: 5px;
+border-color: aliceblue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
